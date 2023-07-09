@@ -1,0 +1,104 @@
+:root {
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
+  --slate: #434455;
+}
+.conteiner {
+  width: 1158px;
+}
+.body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
+}
+
+/* logo */
+
+.menu_logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.logo {
+  color: #2e2f42;
+}
+.link {
+  text-decoration: none;
+}
+
+.menu_logo:hover .menu_logo:focus {
+  color: #404bbf;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.sidebar_nav {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.menu_contacts {
+  list-style: none;
+}
+
+.address_menu_contakts {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.address {
+  font-style: normal;
+}
+
+.list-contacs:hover .list-contacs:focus {
+  color: #404bbf;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  list-style: none;
+}
+
+/* tite_main */
+
+.section_title_main {
+  border-color: #2e2f42;
+}
+
+.title_main {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.main_button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.main_button:hover .main_button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
